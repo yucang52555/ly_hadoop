@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="wcmapreduce">
+    <output-path>$PROJECT_DIR$/wordcount/out/artifacts/wcmapreduce</output-path>
+    <root id="archive" name="wcmapreduce.jar">
+      <element id="module-output" name="wordcount" />
+    </root>
+  </artifact>
+</component>
