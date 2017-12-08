@@ -34,11 +34,11 @@
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.7.4</version>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
             <version>2.7.4</version>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
@@ -51,6 +51,14 @@
                     <outputDirectory>./lib</outputDirectory>
                 </configuration>
 
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>
