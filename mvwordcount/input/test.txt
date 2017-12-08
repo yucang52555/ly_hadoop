@@ -1,0 +1,8 @@
+hello hadoop
+hello word
+hello background
+hi
+heihei
+hadoop bye
+hei hi
+word count
