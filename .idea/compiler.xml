@@ -26,8 +26,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="mvwordcount" target="1.8" />
-      <module name="wordcount" target="1.8" />
+      <module name="mvwordcount" target="1.5" />
+      <module name="wordcount" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

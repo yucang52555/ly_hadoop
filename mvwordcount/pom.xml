@@ -34,11 +34,11 @@
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.7.4</version>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
             <version>2.7.4</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
