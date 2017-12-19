@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hdfsimport/hdfsimport.iml" filepath="$PROJECT_DIR$/hdfsimport/hdfsimport.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvwordcount/mvwordcount.iml" filepath="$PROJECT_DIR$/mvwordcount/mvwordcount.iml" />
       <module fileurl="file://$PROJECT_DIR$/readcount/readcount.iml" filepath="$PROJECT_DIR$/readcount/readcount.iml" />
       <module fileurl="file://$PROJECT_DIR$/wordcount/wordcount.iml" filepath="$PROJECT_DIR$/wordcount/wordcount.iml" />

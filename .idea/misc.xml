@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/wordcount/pom.xml" />
         <option value="$PROJECT_DIR$/readcount/pom.xml" />
+        <option value="$PROJECT_DIR$/hdfsimport/pom.xml" />
       </list>
     </option>
   </component>
