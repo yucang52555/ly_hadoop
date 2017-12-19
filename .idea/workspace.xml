@@ -2,128 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16c23d6-f58b-43d6-af09-7683b0e126bf" name="Default" comment="hadoop基于mysql数据统计">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/readcount.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/bean/UserInfoRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java" />
     </list>
     <list id="d24be5ee-9dbb-4108-982f-65e6ecd42245" name="Rejected commit: Default" comment="hadoop基于mysql数据统计">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvwordcount/out/artifacts/mvwordcount_jar/mvwordcount.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mvwordcount_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__backport_util_concurrent_backport_util_concurrent_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__classworlds_classworlds_1_1_alpha_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_guice_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nekohtml_nekohtml_1_9_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__nekohtml_xercesMinimal_1_9_6_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_ant_tasks_2_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_manager_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_error_diagnostics_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_registry_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_profile_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_project_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_file_1_0_beta_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_1_0_beta_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_1_0_beta_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_1_0_beta_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_container_default_1_0_alpha_9_stable_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_1_5_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mvwordcount/src/main/java/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/fs/CommonConfigurationKeys.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/fs/FileStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/fs/FileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/fs/Path.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/fs/permission/FsPermission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/Text.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/WritableUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/nativeio/NativeIOException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/net/NetUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/util/Shell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/util/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/CommonConfigurationKeys.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/CommonConfigurationKeys.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileStatus.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileStatus.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileUtil$HardLink.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileUtil$HardLink.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileUtil.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/FileUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/Path.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/Path.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission$1.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission$ImmutableFsPermission.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission$ImmutableFsPermission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/fs/permission/FsPermission.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$1.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$2.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$Comparator.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text$Comparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/Text.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/WritableUtils.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/WritableUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$CachedUid.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$CachedUid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CacheManipulator.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CacheManipulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CachedName.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CachedName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$IdCache.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$IdCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$NoMlockCacheManipulator.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$NoMlockCacheManipulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$Stat.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$Stat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows$AccessRight.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows$AccessRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIOException.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIOException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/net/NetUtils.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/net/NetUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$1.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$CommandExecutor.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$CommandExecutor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ExitCodeException.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ExitCodeException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$OSType.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$OSType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ShellCommandExecutor.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ShellCommandExecutor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ShellTimeoutTimerTask.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell$ShellTimeoutTimerTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/Shell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils$1.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils$TraditionalBinaryPrefix.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils$TraditionalBinaryPrefix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/apache/hadoop/util/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount$IntSumReducer.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount$IntSumReducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount$TokenizerMapper.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount$TokenizerMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount.class" afterPath="$PROJECT_DIR$/mvwordcount/target/classes/org/lengyan/mvwordcount/WordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/out/artifacts/wcmapreduce/wcmapreduce.jar" afterPath="$PROJECT_DIR$/wordcount/out/artifacts/wcmapreduce/wcmapreduce.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$CachedUid.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$CachedUid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CacheManipulator.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CacheManipulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CachedName.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$CachedName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$IdCache.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$IdCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$NoMlockCacheManipulator.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$NoMlockCacheManipulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$Stat.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX$Stat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$POSIX.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows$AccessRight.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows$AccessRight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO$Windows.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/apache/hadoop/io/nativeio/NativeIO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount$WordCountMap.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount$WordCountMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount$WordCountReduce.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount$WordCountReduce.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount.class" afterPath="$PROJECT_DIR$/wordcount/target/classes/org/lengyan/wordcount/WordCount.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/mvwordcount.iml" afterPath="$PROJECT_DIR$/mvwordcount/mvwordcount.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvwordcount/pom.xml" afterPath="$PROJECT_DIR$/mvwordcount/pom.xml" />
     </list>
     <ignored path="ly_hadoop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,6 +15,7 @@
     <ignored path="$PROJECT_DIR$/mvwordcount/target/" />
     <ignored path="$PROJECT_DIR$/readcount/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReadCount.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+            <state relative-caret-position="460">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,11 +51,63 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CityStat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="59" column="68" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapTask.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/MapTask.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1497">
+              <caret line="275" column="17" selection-start-line="275" selection-start-column="17" selection-end-line="275" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reducer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashPartitioner.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/lib/partition/HashPartitioner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TaskInputOutputContext.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#1810#1811#0" expanded="true" />
                 <element signature="e#1850#1851#0" expanded="true" />
@@ -185,7 +121,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="940" column="0" selection-start-line="940" selection-start-column="0" selection-end-line="940" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#40459#40460#0" expanded="true" />
+                <element signature="e#40510#40511#0" expanded="true" />
+                <element signature="e#41139#41140#0" expanded="true" />
+                <element signature="e#41185#41186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,21 +134,9 @@
       <file leaf-file-name="IFile.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/IFile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="370" column="117" selection-start-line="370" selection-start-column="117" selection-end-line="370" selection-end-column="117" />
+            <state relative-caret-position="127">
+              <caret line="357" column="0" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Counter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Counter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding>
-                <element signature="e#1886#1887#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -215,53 +144,18 @@
       <file leaf-file-name="Text.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/Text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="347" column="0" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
               <folding>
                 <element signature="e#2800#2801#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryComparable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/BinaryComparable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reducer.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapTask.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/MapTask.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReduceContext.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/ReduceContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-              <folding>
-                <element signature="e#4495#4496#0" expanded="true" />
-                <element signature="e#4526#4527#0" expanded="true" />
+                <element signature="e#2829#2830#0" expanded="true" />
+                <element signature="e#2899#2900#0" expanded="true" />
+                <element signature="e#2920#2921#0" expanded="true" />
+                <element signature="e#3647#3648#0" expanded="true" />
+                <element signature="e#3669#3670#0" expanded="true" />
+                <element signature="e#3765#3766#0" expanded="true" />
+                <element signature="e#3788#3789#0" expanded="true" />
+                <element signature="e#10752#10753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -308,9 +202,9 @@
         <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/DBCountPageView.java" />
         <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityMRStat.java" />
         <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/bean/UserInfoRecord.java" />
-        <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java" />
         <option value="$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/net/NetUtils.java" />
         <option value="$PROJECT_DIR$/readcount/pom.xml" />
+        <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java" />
         <option value="$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java" />
       </list>
     </option>
@@ -912,7 +806,7 @@
       <workItem from="1512614436728" duration="1918000" />
       <workItem from="1512617518563" duration="15446000" />
       <workItem from="1512717878573" duration="13275000" />
-      <workItem from="1513242771823" duration="18476000" />
+      <workItem from="1513242771823" duration="33249000" />
     </task>
     <task id="LOCAL-00001" summary="hadoop基于idea开发基础项目">
       <created>1512720364601</created>
@@ -932,11 +826,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53579000" />
+    <option name="totallyTimeSpent" value="68352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -944,14 +838,14 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869988" sideWeight="0.34221748" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38136512" sideWeight="0.34221748" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33261105" sideWeight="0.641258" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
@@ -1014,21 +908,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Reducer.class</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1037,20 +917,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mvwordcount/src/main/java/org/apache/hadoop/io/WritableUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6933">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/net/NetUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvwordcount/src/main/java/org/apache/hadoop/util/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1116,13 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1314,16 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/RecordWriter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1394,14 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/MapTask.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/ReduceContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1409,43 +1250,6 @@
           <folding>
             <element signature="e#4495#4496#0" expanded="true" />
             <element signature="e#4526#4527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/BinaryComparable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="e#2800#2801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1460,26 +1264,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/WritableComparator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#3385#3386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/io/BinaryComparable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/apache/hadoop/io/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="347" column="0" selection-start-line="347" selection-start-column="0" selection-end-line="347" selection-end-column="0" />
+          <folding>
+            <element signature="e#2800#2801#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="true" />
+            <element signature="e#2920#2921#0" expanded="true" />
+            <element signature="e#3647#3648#0" expanded="true" />
+            <element signature="e#3669#3670#0" expanded="true" />
+            <element signature="e#3765#3766#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
+            <element signature="e#10752#10753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/lib/partition/HashPartitioner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1497">
+          <caret line="275" column="17" selection-start-line="275" selection-start-column="17" selection-end-line="275" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/TaskInputOutputContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1850#1851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/Task.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="940" column="0" selection-start-line="940" selection-start-column="0" selection-end-line="940" selection-end-column="0" />
+          <folding>
+            <element signature="e#40459#40460#0" expanded="true" />
+            <element signature="e#40510#40511#0" expanded="true" />
+            <element signature="e#41139#41140#0" expanded="true" />
+            <element signature="e#41185#41186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.2.1/hadoop-core-1.2.1.jar!/org/apache/hadoop/mapred/IFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="370" column="117" selection-start-line="370" selection-start-column="117" selection-end-line="370" selection-end-column="117" />
+        <state relative-caret-position="127">
+          <caret line="357" column="0" selection-start-line="357" selection-start-column="0" selection-end-line="357" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/ReadCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+        <state relative-caret-position="460">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readcount/src/main/java/org/lengyan/readcount/output/CityStat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="59" column="68" selection-start-line="59" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

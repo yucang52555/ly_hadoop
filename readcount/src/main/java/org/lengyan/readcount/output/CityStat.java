@@ -20,11 +20,11 @@ import java.sql.SQLException;
 public class CityStat implements WritableComparable<CityStat>, Writable, DBWritable {
 
     private String cityName;
-    private Integer cityCount;
+    private Long cityCount;
 
     public CityStat(){}
 
-    public CityStat(String cityName, Integer cityCount) {
+    public CityStat(String cityName, Long cityCount) {
         this.cityName = cityName;
         this.cityCount = cityCount;
     }
@@ -37,11 +37,11 @@ public class CityStat implements WritableComparable<CityStat>, Writable, DBWrita
         this.cityName = cityName;
     }
 
-    public Integer getCityCount() {
+    public Long getCityCount() {
         return cityCount;
     }
 
-    public void setCityCount(Integer cityCount) {
+    public void setCityCount(Long cityCount) {
         this.cityCount = cityCount;
     }
 
@@ -53,25 +53,25 @@ public class CityStat implements WritableComparable<CityStat>, Writable, DBWrita
     @Override
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeUTF(cityName);
-        dataOutput.writeInt(cityCount);
+        dataOutput.writeLong(cityCount);
     }
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
         cityName = dataInput.readUTF();
-        cityCount = dataInput.readInt();
+        cityCount = dataInput.readLong();
     }
 
     @Override
     public void write(PreparedStatement preparedStatement) throws SQLException {
         preparedStatement.setString(1, this.cityName);
-        preparedStatement.setInt(2, this.cityCount);
+        preparedStatement.setLong(2, this.cityCount);
     }
 
     @Override
     public void readFields(ResultSet resultSet) throws SQLException {
         this.cityName = resultSet.getString(1);
-        this.cityCount = resultSet.getInt(2);
+        this.cityCount = resultSet.getLong(2);
     }
 
     @Override
